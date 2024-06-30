@@ -10,7 +10,7 @@ const CharacterDetails = () => {
     const fetchCharacterDetails = async () => {
       try {
         const response = await axios.get(
-          `https://gateway.marvel.com/v1/public/characters/${characterId}?ts=1&apikey=30d25ddacc2cbe54e2a70aa61f9d4e07&hash=b586917f47ef9f94b3fd834269141c98`
+          `https://gateway.marvel.com/v1/public/characters/${characterId}?ts=1&apikey=5fd9ca13146465fb78bdc29c7f391567&hash=b586917f47ef9f94b3fd834269141c98`
         );
         setCharacter(response.data.data.results[0]);
       } catch (error) {
