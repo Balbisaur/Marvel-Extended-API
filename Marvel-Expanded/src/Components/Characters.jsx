@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import styles from './Characters.module.css'; // Import CSS module
+import styles from './Characters.module.css'; 
 
 const BrowseCharacters = () => {
   const [characters, setCharacters] = useState([]);
